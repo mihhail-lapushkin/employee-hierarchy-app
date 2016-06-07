@@ -6,19 +6,17 @@
     "dist": "grunt dist",
     "test": "mocha --compilers js:babel-register --recursive",
 
-    "start": "node herokuserver.js",
+    "start": "node server.js",
     "postinstall": "grunt dist"
   },
   
   "dependencies": {
-    "react":                "~15.1.0",
-    "react-dom":            "~15.1.0",
-    "react-router":         "~2.4.0",
-    "classnames":           "~2.2.0",
-    "superagent":           "~2.0.0"
-  },
+    "react":        "~15.1.0",
+    "react-dom":    "~15.1.0",
+    "react-router": "~2.4.0",
+    "classnames":   "~2.2.0",
+    "superagent":   "~2.0.0",
 
-  "devDependencies": {
     "grunt":                  "~1.0.0",
     "load-grunt-tasks":       "~3.5.0",
 
