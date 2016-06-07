@@ -1,4 +1,4 @@
-http://employee-hierarchy-app.herokuapp.com
+http://employee-hierarchy-app.herokuapp.com (might be sleeping so expect delays and absence of data initially)
 
 Visualization does not support loops or having 2 managers from different "levels". Results for those are undefined.
 
