@@ -4,7 +4,10 @@
   "scripts": {
     "dev": "grunt dev",
     "dist": "grunt dist",
-    "test": "mocha --compilers js:babel-register --recursive"
+    "test": "mocha --compilers js:babel-register --recursive",
+
+    "start": "node herokuserver.js",
+    "postinstall": "grunt dist"
   },
   
   "dependencies": {
@@ -43,6 +46,10 @@
     "enzyme":                   "~2.3.0",
     "mocha-jsdom":              "~1.1.0",
     "sinon":                    "~1.17.0",
-    "rewire":                   "~2.5.0"      
+    "rewire":                   "~2.5.0",
+
+    "compression":  "~1.6.0",
+    "express":      "~4.13.0",
+    "serve-static": "~1.10.0"   
   }
 }

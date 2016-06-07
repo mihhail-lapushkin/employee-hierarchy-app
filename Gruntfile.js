@@ -134,7 +134,7 @@ module.exports = (grunt) => {
         }
       }
     }
-  });
+  })
   
   grunt.registerTask('dev', [
     'clean:dev',
@@ -144,7 +144,7 @@ module.exports = (grunt) => {
     'postcss:dev',
     'connect:livereload',
     'watch'
-  ]);
+  ])
   
   grunt.registerTask('dist', [
     'clean:dist',
@@ -153,5 +153,5 @@ module.exports = (grunt) => {
     'replace:dist',
     'stylus:dist',
     'postcss:dist'
-  ]);
+  ])
 };
